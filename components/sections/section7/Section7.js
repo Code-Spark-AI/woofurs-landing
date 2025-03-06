@@ -95,7 +95,7 @@ bring something that smells like home.`
                         <Flex color="white" justifyContent="center" w="26px" h="full" >
                             <PhoneIcon solid={true} />
                         </Flex>
-                        +91 9743127063
+                        +91 9686220260
                     </Text>
                 </Flex>
             </Box>
