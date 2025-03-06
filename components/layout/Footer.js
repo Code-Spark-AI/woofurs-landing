@@ -25,7 +25,7 @@ function Footer() {
             },
             {
                 id: nanoid(),
-                title: "+91 9743127063",
+                title: "+91 9686220260",
             }
 
         ],
@@ -83,7 +83,7 @@ function Footer() {
                 <Link href='/'>
                     <Image src={logo.src} w="196px" />
                 </Link>
-                <Text as="strong" fontSize="inherit" fontWeight="inherit" >Copyright © 2024 Woofurs </Text> <br />
+                <Text as="strong" fontSize="inherit" fontWeight="inherit" >Copyright © 2025 Woofurs </Text> <br />
             </Stack>
             <Stack gridGap="2px" >
                 <Heading as="h3" color="#ed6436" fontSize="23px" >About</Heading>
