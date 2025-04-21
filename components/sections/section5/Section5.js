@@ -10,6 +10,7 @@ function Section5() {
             className="scroll-mt-11"
             id="reviews"
             w="full"
+            mt={["40px", "40px", "40px", "40px", "40px"]}
             gridGap={['100px', '100px', '100px', '30px', '30px']}
             pr={['0px', '0px', '0px', '78px', '78px']}
             direction={['column', 'column', 'column', 'row', 'row']}
@@ -24,8 +25,8 @@ function Section5() {
                     url={lexi.src}
                     x={'-280'}
                     y={'-240'}
-                    sizeW={'140%'}
-                    sizeH={'180%'}
+                    sizeW={'120%'}
+                    sizeH={'140%'}
                     id={'lexi-dog-s5lst'}
                 />
             </Flex>

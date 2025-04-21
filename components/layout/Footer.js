@@ -44,18 +44,18 @@ function Footer() {
     }
 
     const socialNetworks = [
-        {
-            id: nanoid(),
-            socialNetwork: 'Facebook',
-            iconSvg: <Facebook />,
-            url: 'https://www.facebook.com/profile.php?id=61563482695848',
-            pl: '6px'
-        },
+        // {
+        //     id: nanoid(),
+        //     socialNetwork: 'Facebook',
+        //     iconSvg: <Facebook />,
+        //     url: 'https://www.facebook.com/profile.php?id=61563482695848',
+        //     pl: '6px'
+        // },
         {
             id: nanoid(),
             socialNetwork: 'Instagram',
             iconSvg: <Instagram />,
-            url: 'https://www.instagram.com/bellyrub__club',
+            url: 'https://www.instagram.com/bellyrubclub_woofurs/',
         },
         {
             id: nanoid(),
@@ -83,7 +83,7 @@ function Footer() {
                 <Link href='/'>
                     <Image src={logo.src} w="196px" />
                 </Link>
-                <Text as="strong" fontSize="inherit" fontWeight="inherit" >Copyright © 2025 Woofurs </Text> <br />
+                <Text as="strong" fontSize="inherit" fontWeight="inherit" >© 2025 SniffinTails Tech Pvt Ltd </Text> <br />
             </Stack>
             <Stack gridGap="2px" >
                 <Heading as="h3" color="#ed6436" fontSize="23px" >About</Heading>

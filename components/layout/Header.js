@@ -17,8 +17,8 @@ function Header() {
 		},
 		{
 			id: nanoid(),
-			url: '/#why',
-			title: 'why',
+			url: '/#solution',
+			title: 'solution',
 		},
 		{
 			id: nanoid(),
@@ -29,11 +29,6 @@ function Header() {
 			id: nanoid(),
 			url: '/#business',
 			title: 'For Businesses',
-		},
-		{
-			id: nanoid(),
-			url: '/#values',
-			title: 'values',
 		},
 		{
 			//*id: nanoid(),
@@ -58,7 +53,7 @@ function Header() {
 		>
 			<Center>
 				<Link href="/">
-					<Image width="full" src={logo.src} alt={'woofurs logo'} title='Simplifying Pet Care with AI for Pet Owners and Businesses'/>
+					<Image width="full" src={logo.src} alt={'woofurs logo'} title='Every Paw Deserves the Best Care, Instantly'/>
 				</Link>
 				
 			</Center>

@@ -6,6 +6,7 @@ import CatIcon from '@icons/CatIcon';
 import BrushIcon from '@icons/SpaIcon';
 import HouseDogIcon from '@icons/HouseDogIcon';
 import CardService from './CardService';
+import TaxIcon from '@icons/TaxIcon';
 
 function Section4() {
 
@@ -13,30 +14,44 @@ function Section4() {
         {
             id: nanoid(),
             url: "",
-            icon: <DogIcon />,
-            title: "Integrated Pet Care Platform",
-            description: `Connect with multiple service providers through a single, user-friendly interface. Say goodbye to the hassle of coordinating between disconnected services.`,
-        },
-        {
-            id: nanoid(),
-            url: "",
-            icon: <CatIcon />,
-            title: "Smart Business Management Tools",
-            description: `Automate administrative tasks for pet care businesses, including appointment scheduling, customer management, and invoicing, allowing them to focus on providing quality care.`,
-        },
-        {
-            id: nanoid(),
-            url: "",
             icon: <BrushIcon colorFill={'#82C55B'} />,
-            title: "Centralized Pet Profiles",
-            description: `Create comprehensive digital pet records accessible to authorized service providers, ensuring personalized care and informed decision-making across all pet services.`,
+            title: "Grooming",
+            description: `Professional grooming services that make your pet look and feel their best`,
         },
         {
             id: nanoid(),
             url: "",
             icon: <HouseDogIcon />,
-            title: "AI-Powered Health Insights",
-            description: `Leverage artificial intelligence to analyze pet data, providing personalized health recommendations, preventive care suggestions, and early warning signs for potential issues.`,
+            title: "Boarding",
+            description: `Safe, comfortable home-away-from-home when you're traveling`,
+        },
+        {
+            id: nanoid(),
+            url: "",
+            icon: <DogIcon />,
+            title: "Veterinary",
+            description: `At Home consultations and clinic appointments when you need them`,
+        },
+        {
+            id: nanoid(),
+            url: "",
+            icon: <CatIcon />,
+            title: "Nutrition",
+            description: `Customized diet plans and consultations with pet nutritionists`,
+        },
+        {
+            id: nanoid(),
+            url: "",
+            icon: <TaxIcon />,
+            title: "Training",
+            description: `Professional trainers for obedience, behavior, and specialty training`,
+        },
+        {
+            id: nanoid(),
+            url: "",
+            icon: <BrushIcon colorFill={'#82C55B'}/>,
+            title: "Walking",
+            description: `Reliable dog walkers with video and photo updates to keep your pet healthy`,
         },
 
     ]
@@ -45,16 +60,18 @@ function Section4() {
         <Flex
             id="features"
             w="full"
-            py="128px"
+            py="100px"
             px={['20px', '20px', '20px', '76px', '76px']}
             gridGap="30px"
             justifyContent="center"
             alignItems="center"
-            flexWrap={['wrap', 'wrap', 'wrap', 'wrap', 'nowrap']}
+            flexWrap="wrap"
             flexDirection={['column', 'column', 'row', 'row', 'row']}
         >
             {
-                services.map(e => <CardService key={e.id} data={e} />)
+                services.map(e => (
+                    <CardService key={e.id} data={e} style={{ flexBasis: '30%' }} />
+                ))
             }
 
         </Flex>

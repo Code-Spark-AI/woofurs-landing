@@ -27,17 +27,15 @@ function ReviewContainer() {
                 >
                     <QuoteRightIcon />
                 </Box>
-                We love bring Lexi to Kasams house! The
-                staff is always so friendly and it&apos;s so
-                convenient for our busy schedules!
+                managing my fur baby&apos;s care so much easier. From scheduling grooming appointments to finding a reliable dog walker, everything is just a tap away! The digital health records feature is a game-changer.
             </Flex>
             <Flex
                 gridGap="10px"
                 direction="column"
                 fontWeight="700"
             >
-                <Text color="#ed6436" textTransform="uppercase" >jane cole</Text>
-                <Text >Owner</Text>
+                <Text color="#ed6436" textTransform="uppercase" >Priya K.</Text>
+                <Text >Pet Parent, Koramangala, Bangalore</Text>
             </Flex>
         </Center>
     );

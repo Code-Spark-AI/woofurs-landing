@@ -16,15 +16,16 @@ export default function Home() {
 		<Fragment>
 			<Section1 />
 			<Section2 />
-			<Section4 />
 			<Section3 />
+			<Section4 />
+			<Section5 />
 			
-			{/* <Section5 /> */}
 			{/* <Section6 /> */}
-			{/* <Section7 /> */}
+			<Section7 />
+			
 			{/* <Section8 /> */}
 			<Section9 />
-			<LinkPreview title={'Woofurs | Simplifying Pet Care'} imageUrl={logo} description={'Simplifying Pet Care'} />
+			<LinkPreview title={'Woofurs | Every Paw Deserves the Best Care, Instantly'} imageUrl={logo} description={'Every Paw Deserves the Best Care, Instantly'} />
 		</Fragment>
 	);
 }
