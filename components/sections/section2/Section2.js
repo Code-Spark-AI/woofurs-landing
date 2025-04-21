@@ -59,7 +59,7 @@ function Section2() {
           <Flex direction={"row"}>
             <StarIcon />
             <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
-              Worrying about your pet's safety with unknown providers
+              Worrying about your pet&apos;s safety with unknown providers
             </Text>
           </Flex>
           <Flex direction={"row"}>

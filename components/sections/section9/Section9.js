@@ -100,7 +100,7 @@ function Section9() {
                 <Flex w="50px" mr="20px">
                   <HouseDogIcon />
                 </Flex>
-                Join Bangalore's growing community of happy pet parents.
+                Join Bangalore&apos;s growing community of happy pet parents.
               </Flex>
             </Text>
             <Flex direction="row">

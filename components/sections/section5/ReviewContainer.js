@@ -27,7 +27,7 @@ function ReviewContainer() {
                 >
                     <QuoteRightIcon />
                 </Box>
-                managing my fur baby's care so much easier. From scheduling grooming appointments to finding a reliable dog walker, everything is just a tap away! The digital health records feature is a game-changer.
+                managing my fur baby&apos;s care so much easier. From scheduling grooming appointments to finding a reliable dog walker, everything is just a tap away! The digital health records feature is a game-changer.
             </Flex>
             <Flex
                 gridGap="10px"
