@@ -4,7 +4,7 @@ import BrushIcon from '@icons/BrushIcon';
 import Bone2Icon from '@icons/Bone2Icon';
 import ContainerButtons from './ContainerButtons';
 import { Flex, Heading, Text } from '@chakra-ui/layout';
-import ContainerIconServices from './ContainerIconServies';
+import ContainerIconServices from '../common/ContainerIconServies';
 import CloudRightImage4 from '@components/clouds/CloudRightImage4';
 import dogImage from '../../../resources/images/dog-swimming.jpg'
 import { nanoid } from 'nanoid';
@@ -16,27 +16,27 @@ function Section3() {
         services: [
             {
                 id: nanoid(),
-                title: "Groomers",
+                title: "All-in-One Services",
                 icon: <Bone2Icon />,
-                description: `Streamline appointment bookings, manage client records.`
+                description: `Find groomers, boarders, walkers, vets, and stores in seconds - everything your pet needs in just a few taps.`
             },
             {
                 id: nanoid(),
-                title: "Boarders",
+                title: "Digital Pet Profiles",
                 icon: <BallIcon colorFill={'white'} />,
-                description: `Efficiently manage bookings, track pet preferences and special needs.`
+                description: `Keep all health records, vaccination history, and pet details in one place - never lose important information again.`
             },
             {
                 id: nanoid(),
-                title: "Trainers",
+                title: "Verified Professionals",
                 icon: <BrushIcon colorFill={'white'} />,
-                description: `Schedule sessions, track training progress, and share updates.`
+                description: `Every service provider undergoes rigorous background checks and skill verification - trust who cares for your pet.`
             },
             {
                 id: nanoid(),
-                title: "Veterinarians",
+                title: "Peace of Mind",
                 icon: <TaxIcon />,
-                description: `Access comprehensive pet health histories, schedule appointments.`
+                description: `Track services in real-time and communicate directly with providers - stay connected to your pet's care.`
             }
         ],
         buttons: [
@@ -57,7 +57,7 @@ function Section3() {
             w="full"
             pt="20px"
             pb="100px"
-            id="business"
+            mt={["40px", "40px", "40px", "30px", "30px"]}
             direction={['column', 'column', 'column', 'row', 'row']}
             justifyContent="space-between"
             className="scroll-mt"
@@ -71,8 +71,8 @@ function Section3() {
                 px={['20px', '36px', '36px', '0px', '0px']}
             >
                 <Heading fontSize={['50px', '50px', '68px', '68px', '68px']} fontWeight="700" >
-                    For 
-                    <Heading as="strong" color="#ED6436" fontSize="inherit" fontWeight="700" > Pet Care Businesses </Heading>
+                One App for  
+                    <Heading as="strong" color="#ED6436" fontSize="inherit" fontWeight="700" > All Your Pet Care Needs </Heading>
                 </Heading>
                 {/* <Text whiteSpace="pre-wrap" fontSize="18px" lineHeight="1.7" >
                     Our puppies and other very active dogs have plenty of
@@ -89,7 +89,7 @@ function Section3() {
                     x={'-120'}
                     y={'0'}
                 />
-                <ContainerButtons data={data.buttons} />
+                {/* <ContainerButtons data={data.buttons} /> */}
             </Flex>
         </Flex>
     );

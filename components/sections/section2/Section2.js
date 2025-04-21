@@ -3,12 +3,13 @@ import { Flex, Heading, Text, Link } from "@chakra-ui/layout";
 
 import Btn from "@components/Btn";
 import ContainerImages from "./ContainerImages";
+import StarIcon from "@icons/StarIcon";
 
 function Section2() {
   return (
     <Flex
       w="full"
-      id="why"
+      id="solution"
       className="scroll-mt"
       flexDirection={[
         "column-reverse",
@@ -17,7 +18,7 @@ function Section2() {
         "row",
         "row",
       ]}
-      mt={["40px", "40px", "40px", "78px", "78px"]}
+      mt={["40px", "40px", "40px", "40px", "40px"]}
     >
       <ContainerImages />
       <Flex
@@ -31,7 +32,7 @@ function Section2() {
           fontSize={["50px", "50px", "68px", "68px", "68px"]}
           fontWeight="700"
         >
-          Why
+          Traditional Pet Care is
           <Heading
             as="strong"
             color="#ED6436"
@@ -39,38 +40,35 @@ function Section2() {
             fontWeight="700"
           >
             {" "}
-            Woofurs?
+            Overwhelming
           </Heading>
         </Heading>
-        <Text whiteSpace="pre-wrap" fontSize="18px" lineHeight="1.7">
-          We envision a future where pet care is effortless for businesses, transparent for pet parents, and better for every animal, creating happier, healthier pet families.
-        </Text>
-        <Link
-          href="https://chat.whatsapp.com/BvC4FihB7Qv18m283rkoV6"
-          target="_blank"
-          style={{ textDecoration: "none" }}
-        >
-          <Btn
-            py={"22px"}
-            fSize={"14px"}
-            letterSpacing={"1.2px"}
-            title={"JOIN NOW"}
-            borderTopStartRadius={"none"}
-            change={true}
-            colorHover={"#ed6436"}
-            color={"white"}
-            width={"164px"}
-            gap={"12px"}
-            fw={"700"}
-            alignSelf={[
-              "center",
-              "center",
-              "center",
-              "flex-start",
-              "flex-start",
-            ]}
-          />
-        </Link>
+        <Flex direction={"column"}>
+          <Flex direction={"row"} alignItems={"center"}>
+            <StarIcon />
+            <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
+              Spending hours finding reliable pet services
+            </Text>
+          </Flex>
+          <Flex direction={"row"}>
+            <StarIcon />
+            <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
+              Managing multiple contacts for different needs
+            </Text>
+          </Flex>
+          <Flex direction={"row"}>
+            <StarIcon />
+            <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
+              Worrying about your pet's safety with unknown providers
+            </Text>
+          </Flex>
+          <Flex direction={"row"}>
+            <StarIcon />
+            <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
+              Keeping track of health records across various clinics
+            </Text>
+          </Flex>
+        </Flex>
       </Flex>
     </Flex>
   );

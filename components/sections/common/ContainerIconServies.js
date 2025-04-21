@@ -12,7 +12,7 @@ function ContainerIconServices({ data }) {
         "flex-start",
       ]}
       flexDirection={["column", "column", "column", "column", "column"]}
-      gridGap="12px"
+      gridGap="6px"
       flexWrap="wrap"
       px={["20px", "20px", "20px", "0px", "0px"]}
     >

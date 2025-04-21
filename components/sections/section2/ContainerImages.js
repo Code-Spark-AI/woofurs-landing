@@ -9,7 +9,7 @@ import ballForDog from '../../../resources/images/orange-ball.png'
 function ContainerImages() {
     return (
         <Flex
-            w={['100%', '100%', '100%', '160%', '160%',]}
+            w={['100%', '100%', '100%', '120%', '120%',]}
             position="relative"
             mt={['40px', '40px', '40px', '0px', '0px']}
         >
