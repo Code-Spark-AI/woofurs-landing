@@ -32,21 +32,21 @@ const Terms = () => {
                         Acceptance of Terms
                     </Text>
                     <Text mb="4">
-                        By accessing or using Woofurs’ services, you agree to comply with and be bound by these Terms and Conditions and any other policies, including our Privacy Policy, incorporated by reference.
+                        By accessing or using WigglyPet’s services, you agree to comply with and be bound by these Terms and Conditions and any other policies, including our Privacy Policy, incorporated by reference.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Eligibility
                     </Text>
                     <Text mb="4">
-                        You must be at least 18 years old to use Woofurs. By using our platform, you confirm that you meet this eligibility requirement.
+                        You must be at least 18 years old to use WigglyPet. By using our platform, you confirm that you meet this eligibility requirement.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Services Provided
                     </Text>
                     <Text mb="4">
-                        Woofurs provides a platform that connects pet owners with pet care providers, including groomers, trainers, boarders, and veterinarians. Woofurs does not directly offer any pet care services, nor does it employ pet care providers. We facilitate connections and communication only.
+                        WigglyPet provides a platform that connects pet owners with pet care providers, including groomers, trainers, boarders, and veterinarians. WigglyPet does not directly offer any pet care services, nor does it employ pet care providers. We facilitate connections and communication only.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
@@ -64,21 +64,21 @@ const Terms = () => {
                         Service Providers
                     </Text>
                     <Text mb="4">
-                        Service providers listed on Woofurs, including groomers, trainers, boarders, and veterinarians, are third-party entities. Woofurs does not endorse, vet, or guarantee the quality of services provided by these third parties.
+                        Service providers listed on WigglyPet, including groomers, trainers, boarders, and veterinarians, are third-party entities. WigglyPet does not endorse, vet, or guarantee the quality of services provided by these third parties.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Payment and Fees
                     </Text>
                     <Text mb="4">
-                        Woofurs may charge fees for certain services, and fees may apply to transactions with pet care providers. These fees will be clearly indicated and may be subject to change. Woofurs is not responsible for the payment policies or refund practices of any service provider.
+                        WigglyPet may charge fees for certain services, and fees may apply to transactions with pet care providers. These fees will be clearly indicated and may be subject to change. WigglyPet is not responsible for the payment policies or refund practices of any service provider.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Use of AI-Powered Health Insights
                     </Text>
                     <Text mb="4">
-                        Woofurs provides AI-powered health insights to help pet owners and service providers make informed decisions. These insights are recommendations only and should not replace professional veterinary advice. Always consult with a qualified veterinarian for medical issues.
+                        WigglyPet provides AI-powered health insights to help pet owners and service providers make informed decisions. These insights are recommendations only and should not replace professional veterinary advice. Always consult with a qualified veterinarian for medical issues.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
@@ -86,8 +86,8 @@ const Terms = () => {
                     </Text>
                     <Text mb="4">
                         <ul className="list-disc list-inside space-y-2">
-                            <li><span className="font-bold">User-Submitted Content</span>: By submitting any content on our platform, you grant Woofurs a non-exclusive, worldwide, royalty-free, and transferable license to use, display, reproduce, and modify this content as necessary to operate our services.</li>
-                            <li><span className="font-bold">Platform Content</span>: Woofurs retains ownership of all proprietary information and intellectual property displayed on the platform. Unauthorized reproduction, distribution, or modification of this content is prohibited.</li>
+                            <li><span className="font-bold">User-Submitted Content</span>: By submitting any content on our platform, you grant WigglyPet a non-exclusive, worldwide, royalty-free, and transferable license to use, display, reproduce, and modify this content as necessary to operate our services.</li>
+                            <li><span className="font-bold">Platform Content</span>: WigglyPet retains ownership of all proprietary information and intellectual property displayed on the platform. Unauthorized reproduction, distribution, or modification of this content is prohibited.</li>
                         </ul>
                     </Text>
 
@@ -95,35 +95,35 @@ const Terms = () => {
                         Privacy and Data Usage
                     </Text>
                     <Text mb="4">
-                        Woofurs collects and uses personal information as described in our Privacy Policy. By using our platform, you agree to our data collection and usage practices.
+                        WigglyPet collects and uses personal information as described in our Privacy Policy. By using our platform, you agree to our data collection and usage practices.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Liability Limitation
                     </Text>
                     <Text mb="4">
-                        Woofurs is not liable for any damages or losses related to your use of the platform or services obtained through it. This includes, but is not limited to, damages resulting from errors, service interruptions, or actions taken by third-party service providers.
+                        WigglyPet is not liable for any damages or losses related to your use of the platform or services obtained through it. This includes, but is not limited to, damages resulting from errors, service interruptions, or actions taken by third-party service providers.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Indemnification
                     </Text>
                     <Text mb="4">
-                        You agree to indemnify and hold harmless Woofurs, its affiliates, employees, and partners from any claims, liabilities, damages, or expenses arising from your use of the platform, violation of these Terms, or infringement of any third-party rights.
+                        You agree to indemnify and hold harmless WigglyPet, its affiliates, employees, and partners from any claims, liabilities, damages, or expenses arising from your use of the platform, violation of these Terms, or infringement of any third-party rights.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Termination
                     </Text>
                     <Text mb="4">
-                        Woofurs reserves the right to terminate or suspend your account at our discretion, without notice, for conduct we consider inappropriate or in violation of these Terms.
+                        WigglyPet reserves the right to terminate or suspend your account at our discretion, without notice, for conduct we consider inappropriate or in violation of these Terms.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Changes to Terms
                     </Text>
                     <Text mb="4">
-                        Woofurs may modify these Terms at any time. Changes will be posted on this page with an updated date. Your continued use of the platform after changes are made constitutes acceptance of the revised Terms.
+                        WigglyPet may modify these Terms at any time. Changes will be posted on this page with an updated date. Your continued use of the platform after changes are made constitutes acceptance of the revised Terms.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">

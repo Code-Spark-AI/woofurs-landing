@@ -1,7 +1,7 @@
 import { Center, Flex } from '@chakra-ui/layout';
 import { Image } from "@chakra-ui/react"
 import { nanoid } from 'nanoid';
-import logo from "../../resources/images/woofurs-logo-v.svg"
+import logo from "../../resources/images/wigglyPet.svg"
 import ContainerNavHeader from './ContainerNavHeader';
 import ContainerNavHeaderResponsive from './ContainerNavHeaderResponsive';
 import Link from 'next/link';
@@ -53,7 +53,7 @@ function Header() {
 		>
 			<Center>
 				<Link href="/">
-					<Image width="full" src={logo.src} alt={'woofurs logo'} title='Every Paw Deserves the Best Care, Instantly'/>
+					<Image width="full" src={logo.src} alt={'wigglypet logo'} title='Every Paw Deserves the Best Care, Instantly'/>
 				</Link>
 				
 			</Center>

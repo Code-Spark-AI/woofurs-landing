@@ -50,19 +50,19 @@ function Section2() {
               Spending hours finding reliable pet services
             </Text>
           </Flex>
-          <Flex direction={"row"}>
+          <Flex direction={"row"} alignItems={"center"}>
             <StarIcon />
             <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
               Managing multiple contacts for different needs
             </Text>
           </Flex>
-          <Flex direction={"row"}>
+          <Flex direction={"row"} alignItems={"center"}>
             <StarIcon />
             <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
               Worrying about your pet&apos;s safety with unknown providers
             </Text>
           </Flex>
-          <Flex direction={"row"}>
+          <Flex direction={"row"} alignItems={"center"}>
             <StarIcon />
             <Text whiteSpace="pre-wrap" fontSize="20px" lineHeight="1.7" ml={5}>
               Keeping track of health records across various clinics

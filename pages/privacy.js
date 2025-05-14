@@ -31,14 +31,14 @@ const Privacy = () => {
                         Introduction
                     </Text>
                     <Text mb="4">
-                        This Privacy Policy explains how Woofurs collects, uses, and shares your personal information when you use our services. We are committed to protecting your privacy and ensuring transparency about how your data is handled.
+                        This Privacy Policy explains how WigglyPet collects, uses, and shares your personal information when you use our services. We are committed to protecting your privacy and ensuring transparency about how your data is handled.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Information We Collect
                     </Text>
                     <Text mb="4">
-                        Woofurs collects information to provide and improve our services. We collect information in the following ways:
+                        WigglyPet collects information to provide and improve our services. We collect information in the following ways:
                     </Text>
                     <ul className="list-disc list-inside space-y-2 mb-4">
                         <li><span className="font-bold">Personal Information:</span> Information such as name, email address, and contact details that you provide when registering.</li>
@@ -63,14 +63,14 @@ const Privacy = () => {
                         Data Sharing and Disclosure
                     </Text>
                     <Text mb="4">
-                        Woofurs may share your data with third-party service providers as necessary to operate our platform. We ensure these parties are obligated to safeguard your information and use it only for the purposes we specify. We may also share data to comply with legal obligations or if needed for our platform’s safety.
+                        WigglyPet may share your data with third-party service providers as necessary to operate our platform. We ensure these parties are obligated to safeguard your information and use it only for the purposes we specify. We may also share data to comply with legal obligations or if needed for our platform’s safety.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
                         Third-Party Services and Links
                     </Text>
                     <Text mb="4">
-                        Our platform may contain links to external sites. Woofurs is not responsible for the privacy practices of these third-party websites. We recommend reviewing their privacy policies independently.
+                        Our platform may contain links to external sites. WigglyPet is not responsible for the privacy practices of these third-party websites. We recommend reviewing their privacy policies independently.
                     </Text>
 
                     <Text fontSize="xl" fontWeight="bold" mb="4">
