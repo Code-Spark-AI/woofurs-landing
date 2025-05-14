@@ -4,7 +4,7 @@ import { Box, Center, Flex, Stack, Text } from '@chakra-ui/layout';
 import MenuIcon from '@icons/MenuIcon';
 import XIcon from '@icons/XIcon';
 import NavHeader from '@components/NavHeader';
-import logo from '../../resources/images/woofurs-logo-v.svg'
+import logo from '../../resources/images/wigglyPet.svg'
 import ContainerSocialNetworks from '@components/social_networks/ContainerSocialNetworks';
 import Facebook from '@components/social_networks/Facebook';
 import Instagram from '@components/social_networks/Instagram';

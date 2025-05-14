@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Heading, Stack, Text, Link } from '@chakra-ui/layout';
-import logo from '../../resources/images/woofurs-logo-v.svg'
+import logo from '../../resources/images/wigglyPet.svg'
 import { Image } from '@chakra-ui/image';
 import Facebook from '@components/social_networks/Facebook';
 import Instagram from '@components/social_networks/Instagram';
@@ -61,7 +61,7 @@ function Footer() {
             id: nanoid(),
             socialNetwork: 'Linkedin',
             iconSvg: <Linkedin />,
-            url: 'https://www.linkedin.com/company/woofurs',
+            url: 'https://www.linkedin.com/company/wigglypet',
         }
     ]
 
@@ -83,7 +83,7 @@ function Footer() {
                 <Link href='/'>
                     <Image src={logo.src} w="196px" />
                 </Link>
-                <Text as="strong" fontSize="inherit" fontWeight="inherit" >© 2025 SniffinTails Tech Pvt Ltd </Text> <br />
+                <Text as="strong" fontSize="inherit" fontWeight="inherit" >© 2025 SniffinTails Tech Pvt. Ltd. </Text> <br />
             </Stack>
             <Stack gridGap="2px" >
                 <Heading as="h3" color="#ed6436" fontSize="23px" >About</Heading>

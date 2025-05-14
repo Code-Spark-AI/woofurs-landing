@@ -18,13 +18,13 @@ export const PetProfile = ({ pet }) => {
       id: 1,
       socialNetwork: "Whatsapp",
       iconSvg: <Whatsapp />,
-      url: `https://wa.me/?text=${pet.name}'s public profile: https://www.woofurs.com${shareUrl}`,
+      url: `https://wa.me/?text=${pet.name}'s public profile: https://www.wigglypet.com${shareUrl}`,
     },
     {
       id: 2,
       socialNetwork: "Linkedin",
       iconSvg: <Linkedin />,
-      url: `https://www.linkedin.com/sharing/share-offsite/?url=https://www.woofurs.com${shareUrl}`,
+      url: `https://www.linkedin.com/sharing/share-offsite/?url=https://www.wigglypet.com${shareUrl}`,
     },
   ];
 
@@ -104,7 +104,7 @@ export const PetProfile = ({ pet }) => {
           </Flex>
         </Box>
       </motion.div>
-      <LinkPreview description={pet.bio} imageUrl={pet.imageUrl} title={`${pet.name} | ${pet.location} | ${pet.breed} | Woofurs - Profile`}/>
+      <LinkPreview description={pet.bio} imageUrl={pet.imageUrl} title={`${pet.name} | ${pet.location} | ${pet.breed} | wigglypet - Profile`}/>
     </Flex>
   );
 };

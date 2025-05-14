@@ -9,7 +9,7 @@ import Section7 from "@components/sections/section7/Section7";
 import Section8 from "@components/sections/section8/Section8";
 import Section9 from "@components/sections/section9/Section9";
 import { LinkPreview } from "@components/ui/LinkPreview";
-import logo from '../resources/images/woofurs-logo-v.svg';
+import logo from '../resources/images/wigglyPet.svg';
 
 export default function Home() {
 	return (
@@ -25,7 +25,7 @@ export default function Home() {
 			
 			{/* <Section8 /> */}
 			<Section9 />
-			<LinkPreview title={'Woofurs | Every Paw Deserves the Best Care, Instantly'} imageUrl={logo} description={'Every Paw Deserves the Best Care, Instantly'} />
+			<LinkPreview title={'WigglyPet | Every Paw Deserves the Best Care, Instantly'} imageUrl={logo} description={'Every Paw Deserves the Best Care, Instantly'} />
 		</Fragment>
 	);
 }
