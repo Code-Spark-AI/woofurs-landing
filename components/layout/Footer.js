@@ -55,7 +55,7 @@ function Footer() {
             id: nanoid(),
             socialNetwork: 'Instagram',
             iconSvg: <Instagram />,
-            url: 'https://www.instagram.com/bellyrubclub_woofurs/',
+            url: 'https://www.instagram.com/wigglypet_pack/',
         },
         {
             id: nanoid(),

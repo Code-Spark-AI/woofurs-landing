@@ -27,7 +27,7 @@ function Header() {
 		},
 		{
 			id: nanoid(),
-			url: '/#business',
+			url: '/business',
 			title: 'For Businesses',
 		},
 		{
