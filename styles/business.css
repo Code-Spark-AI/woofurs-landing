@@ -1,0 +1,72 @@
+/* styles/business.css */
+
+/* Add padding to section anchors to account for fixed header */
+#who-can-join, 
+#why-partner, 
+#features, 
+#testimonial {
+  scroll-margin-top: 80px;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero section animations */
+.business-hero-content {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.business-hero-image {
+  animation: fadeInRight 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Benefit cards hover animation */
+.benefit-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* CTA button pulse animation */
+.cta-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(237, 100, 54, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(237, 100, 54, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(237, 100, 54, 0);
+  }
+}
