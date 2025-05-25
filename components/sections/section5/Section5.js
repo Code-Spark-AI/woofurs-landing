@@ -128,7 +128,7 @@ function Section5() {
                             fontStyle="italic"
                             color="#555"
                         >
-                            "{testimonial.quote}"
+                            {`"${testimonial.quote}"`}
                         </Text>
                         
                         {/* Customer info */}
