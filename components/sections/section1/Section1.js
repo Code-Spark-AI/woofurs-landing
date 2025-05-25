@@ -1,5 +1,8 @@
+// components/sections/section1/Section1.js
 import { Box, Flex, Heading, Text, Link } from "@chakra-ui/layout";
+import { Image } from "@chakra-ui/image";
 import React from "react";
+import { Badge } from "@chakra-ui/react";
 
 import CloudRightImage2 from "@components/clouds/CloudRightImage2";
 import BoneIcon from "@icons/BoneIcon";
@@ -7,29 +10,14 @@ import bgImage from "../../../resources/images/image-background-h.jpg";
 import image from "../../../resources/images/husky-play.jpg";
 import HouseDogIcon from "@icons/HouseDogIcon";
 import StarIcon from "@icons/StarIcon";
-import ContainerIconServices from "../common/ContainerIconServies";
 import { nanoid } from "nanoid";
 
 function Section1() {
-  const data = {
-    services: [
-      {
-        id: nanoid(),
-        title: "Groomers",
-        icon: <StarIcon />,
-      },
-      {
-        id: nanoid(),
-        title: "Boarders",
-        icon: <StarIcon />,
-      }
-    ],
-  };
   return (
     <Flex
       id="home"
       w="full"
-      className="scroll-mt"
+      className="scroll-mt enhanced-hero-section"
       justifyContent={[
         "center",
         "center",
@@ -42,12 +30,45 @@ function Section1() {
       textAlign={["center", "center", "center", "left", "left"]}
       flexDirection={["column", "column", "column", "row", "row"]}
       pt="80px"
+      pb={["40px", "40px", "40px", "0", "0"]}
+      position="relative"
+      overflow="hidden"
     >
-      <Box w="full">
+      {/* Background decorative elements */}
+      <Box
+        position="absolute"
+        top="-50px"
+        right="-50px"
+        width="300px"
+        height="300px"
+        bg="#FFC833"
+        opacity="0.1"
+        borderRadius="full"
+        zIndex="-1"
+      />
+      <Box
+        position="absolute"
+        bottom="-100px"
+        left="-100px"
+        width="200px"
+        height="200px"
+        bg="#7AC143"
+        opacity="0.1"
+        borderRadius="full"
+        zIndex="-1"
+      />
+      
+      {/* Hero content */}
+      <Box 
+        w="full" 
+        className="home-hero-content"
+        zIndex="1"
+      >
         <Heading
           fontSize={["50px", "50px", "76px", "76px", "76px"]}
           fontWeight="700"
-          mt="60px"
+          mt="30px"
+          lineHeight="1.1"
         >
           <Text
             as="strong"
@@ -57,49 +78,79 @@ function Section1() {
           >
             Every Paw Deserves the Best Care,
           </Text>{" "}
-          Instantly
+          <Text as="span">Instantly</Text>
         </Heading>
+        
         <Flex
           mt="30px"
-          mb={["0px", "0px", "0px", "80px", "80px"]}
+          mb={["30px", "30px", "30px", "40px", "40px"]}
           mx={["auto", "auto", "auto", "0px", "0px"]}
-          alignItems="center"
+          alignItems="flex-start"
           position="relative"
-          className="vf"
+          maxW={["100%", "100%", "100%", "80%", "80%"]}
         >
-          <Flex direction={"column"}>
+          <Flex direction="column">
             <Text
               whiteSpace="pre-wrap"
-              fontSize="24px"
-              lineHeight="1.7"
+              fontSize={["20px", "20px", "22px", "24px", "24px"]}
+              lineHeight="1.5"
               mb="20px"
-              _hover={{
-                color: "#ED6C41",
-              }}
+              fontWeight="500"
             >
-              <Flex direction="row">
-                <Flex w="150px" mr="20px">
+              <Flex direction="row" alignItems="flex-start">
+                <Flex 
+                  w="150px" 
+                  mr="20px" 
+                  mt="5px"
+                  color="#7AC143"
+                >
                   <HouseDogIcon />
                 </Flex>
-                Connect with verified groomers, boarders, walkers, and vets.
-                Save time. Ensure safety. Pamper your pets.
+                <Text>
+                  Connect with verified groomers, boarders, walkers, and vets.
+                  Save time. Ensure safety. Pamper your pets.
+                </Text>
               </Flex>
             </Text>
-            <Flex direction="row">
+            
+            {/* Features highlights */}
+            <Flex 
+              direction="column" 
+              mb="30px"
+              pl={["0", "0", "0", "60px", "60px"]}
+            >
+              {[
+                "Verified pet care professionals",
+                "Real-time booking and tracking",
+                "Digital health records",
+                "24/7 support for pet parents"
+              ].map((feature, index) => (
+                <Flex key={index} alignItems="center" mb="2">
+                  <Box color="#ED6436" mr="2" w="20px" h="20px">
+                    <StarIcon color="#7AC143" />
+                  </Box>
+                  <Text fontSize="18px">{feature}</Text>
+                </Flex>
+              ))}
+            </Flex>
+            
+            <Flex 
+              direction="row"
+              justifyContent={["center", "center", "center", "flex-start", "flex-start"]}
+            >
               <Link
                 href="#features"
-                // target="_blank"
+                className="cta-button"
               >
                 <Flex
                   w="260px"
-                  mt={["0px", "0px", "0px", "30px", "30px"]}
                   cursor="pointer"
                   transition="transform .3s ease"
                   position="relative"
                   mx={["auto", "auto", "auto", "0px", "0px"]}
                   justifyContent="center"
                   _hover={{
-                    transform: "rotate(10deg)",
+                    transform: "translateY(-5px)",
                   }}
                 >
                   <Flex
@@ -112,7 +163,7 @@ function Section1() {
                       y={"0"}
                       sizeW={"200%"}
                       sizeH={"100%"}
-                      id={"0e0c67fa-1602-4a9d-86ba-32fc73c12670"}
+                      id={"home-cta-bone"}
                     />
                   </Flex>
                   <Text
@@ -135,7 +186,11 @@ function Section1() {
         </Flex>
       </Box>
 
-      <Box w={["100%", "100%", "100%", "120%", "120%"]} maxW="1000px">
+      <Box 
+        w={["100%", "100%", "100%", "120%", "120%"]} 
+        maxW="1000px"
+        className="home-hero-image"
+      >
         <CloudRightImage2
           id={"wolfImg"}
           url={image.src}

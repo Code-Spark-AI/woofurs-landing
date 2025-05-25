@@ -4,7 +4,7 @@ function CloudLeftImage1({ url, x, y, sizeW, sizeH, id, fill }) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 850"
+            viewBox="0 0 1200 800"
         >
             {
                 fill

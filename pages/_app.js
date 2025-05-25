@@ -6,6 +6,7 @@ import theme from "@components/Theme"
 import '../styles/globals.css'
 import '../styles/animations.css'
 import '../styles/business.css'
+import '../styles/home.css'
 import 'animate.css';
 import { useRouter } from 'next/router'
 
