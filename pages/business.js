@@ -11,7 +11,7 @@ import DogIcon from "@icons/DogIcon";
 import CatIcon from "@icons/CatIcon";
 import BrushIcon from "@icons/BrushIcon";
 import QuoteRightIcon from "@icons/QuoteRightIcon";
-import CheckIcon from "@icons/CheckIcon";
+import StarBullet from "@icons/StarBullet";
 import CloudLeftImgBorderNone from "@components/clouds/CloudLeftImgBorderNone";
 import { Box, Flex, Heading, Text, Link } from "@chakra-ui/layout";
 
@@ -152,8 +152,8 @@ export default function Business() {
           <Flex direction="column" spacing="4">
             {features.map((feature, index) => (
               <Flex key={index} alignItems="center" mb="3">
-                <Flex w="24px" h="24px" mr="3" color="#ED6436">
-                  <CheckIcon />
+                <Flex w="24px" h="24px" mr="5" alignItems={"center"}>
+                  <StarBullet />
                 </Flex>
                 <Text fontSize="18px">{feature}</Text>
               </Flex>
