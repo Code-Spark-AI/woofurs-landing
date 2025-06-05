@@ -26,6 +26,7 @@ function MyApp({ Component, pageProps }) {
 		}
 		return Layout
 	}
+	
 
 	const AppLayout = getLayout()
 	
