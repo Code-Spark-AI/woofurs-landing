@@ -3,6 +3,7 @@ import { ChakraProvider } from "@chakra-ui/react"
 import Layout from "@components/layout/Layout"
 import BusinessLayout from "@components/layout/BusinessLayout"
 import theme from "@components/Theme"
+import Script from 'next/script'
 import '../styles/globals.css'
 import '../styles/animations.css'
 import '../styles/business.css'
@@ -33,6 +34,8 @@ function MyApp({ Component, pageProps }) {
 			<AppLayout>
 				<Component {...pageProps} />
 			</AppLayout>
+			<Script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js" strategy="afterInteractive" />
+			<Script src="https://files.bpcontent.cloud/2025/06/05/05/20250605051607-5LOPAZAO.js" strategy="afterInteractive" />
 		</ChakraProvider>
 	)
 }
